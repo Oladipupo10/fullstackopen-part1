@@ -1,28 +1,16 @@
-# fullstackopen-part1
-# Full Stack Open - Part 1
+# React + Vite
 
-This repository contains my solutions for Part 1 of the Full Stack Open course.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Exercises
+Currently, two official plugins are available:
 
-* 1.1 - Course Information
-* 1.2 - Course Information Step 2
-* 1.3 - Course Information Step 3
-* 1.4 - Course Information Step 4
-* 1.5 - Course Information Step 5
-* 1.6 - Unicafe Step 1
-* 1.7 - Unicafe Step 2
-* 1.8 - Unicafe Step 3
-* 1.9 - Unicafe Step 4
-* 1.10 - Unicafe Step 5
-* 1.11 - Unicafe Step 6
-* 1.12 - Anecdotes Step 1
-* 1.13 - Anecdotes Step 2
-* 1.14 - Anecdotes Step 3
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## How to run
+## React Compiler
 
-```bash
-npm install
-npm start
-```
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
